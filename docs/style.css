@@ -4,22 +4,9 @@ body, html, ul, li {
    margin: 0;
    font: 400 15px/1.8 "Lato", sans-serif;
    color: #777;
- }
-
- .parallax {
-   min-height: 100vh;
-   position: relative;
-   overflow: hidden;
 }
 
-#myVideo {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   min-height: 100%;
-   object-fit: cover;
-}
+
 
 /* Stile per il testo sopra il video */
 /* Stile per la navbar */
@@ -58,7 +45,7 @@ body, html, ul, li {
  
  .bgimg-1, .bgimg-2, .bgimg-3 {
    position: relative;
-   opacity: 0.65;
+   
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -66,7 +53,7 @@ body, html, ul, li {
  
  }
  .bgimg-1 {
-   /*background-image: url("cover.jpg");*/
+   background-image: url("wall.gif");
    min-height: 100%;
  }
  
