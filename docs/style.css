@@ -60,11 +60,13 @@ body, html, ul, li {
  .bgimg-2 {
    background-image: url("cover.jpg");
    min-height: 400px;
+   box-shadow: inset 0px 0px 10px 0px black;
  }
  
  .bgimg-3 {
    background-image: url("cover.jpg");
    min-height: 400px;
+   box-shadow: inset 0px 0px 10px 0px black;
  }
  
  .caption {
